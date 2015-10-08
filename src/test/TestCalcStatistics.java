@@ -1,3 +1,9 @@
+/**
+ * Test cases for Calculator class.
+ *
+ * @author stevelyall
+ */
+
 package test;
 
 import multithreadstats.Calculator;

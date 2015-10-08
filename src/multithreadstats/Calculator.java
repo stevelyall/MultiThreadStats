@@ -1,3 +1,9 @@
+/**
+ * Calculations to determine average, minimum, and maximum for an array of integers, returns result as an integer.
+ *
+ * @author stevelyall
+ */
+
 package multithreadstats;
 
 public class Calculator {
@@ -11,7 +17,7 @@ public class Calculator {
         for (int number : numbers) {
             avg += number;
         }
-        return avg/numbers.length;
+        return Math.round(avg / numbers.length);
     }
 
     public int calculateMinimum(int[] numbers) {

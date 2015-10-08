@@ -1,3 +1,9 @@
+/**
+ * Wrapper class to get the operation's result from a Runnable object.
+ *
+ * @author stevelyall
+ */
+
 package multithreadstats;
 
 public class Result {

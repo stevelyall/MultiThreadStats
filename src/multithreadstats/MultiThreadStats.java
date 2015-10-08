@@ -1,3 +1,9 @@
+/**
+ * Takes 1 or more arguments, determines the average, minimum and maximum values, each using a separate thread.
+ *
+ * @author stevelyall
+ */
+
 package multithreadstats;
 
 public class MultiThreadStats {
@@ -9,6 +15,7 @@ public class MultiThreadStats {
         // check and parse arguments
         if (args.length < 1) {
             System.out.println("Must provide at least one integer argument.\nUsage: MultiThreadStats <number> <number> ...");
+            return;
         }
 
         inputNumbers = new int[args.length];
