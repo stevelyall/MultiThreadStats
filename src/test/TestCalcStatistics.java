@@ -1,18 +1,18 @@
 package test;
 
-import multithreadstats.CalcStatistics;
+import multithreadstats.Calculator;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
 public class TestCalcStatistics {
 
-    CalcStatistics calc;
     final int[] testNumbers = {90, 81, 78, 95, 79, 72, 85};
+    Calculator calc;
 
     @Before
     public void SetUp() {
-        calc = new CalcStatistics();
+        calc = new Calculator();
     }
 
     @Test

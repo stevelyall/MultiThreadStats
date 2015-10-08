@@ -1,8 +1,6 @@
 package multithreadstats;
 
-import sun.invoke.empty.Empty;
-
-public class CalcStatistics {
+public class Calculator {
 
     public int calculateAverage(int[] numbers){
         if (numbers.length == 0) {
